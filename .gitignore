@@ -1,0 +1,6 @@
+config.js
+config.json
+config/
+plugins/
+node_modules/
+coverage/
