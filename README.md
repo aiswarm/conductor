@@ -17,7 +17,7 @@ This is the easiest way to get your own agent swarm up and running.
 * Git - Version control system
 * Access to a supported LLM. Right now only [OpenAI](https://openai.com/) is supported, but plans to include AWS Bedrock and other services are underway.
 
-### Installing
+### Installing & Running
 
 You can install the conductor as a binary using npm:
 
@@ -32,8 +32,13 @@ Or you can install it in a folder and run it from there:
 npx @aiswarm/conductor run --help // this will install it automatically and run it
 ```
 
-## Running
-
 To run the conductor, you need to provide a config file. You can use the example config file as a starting point. More configs can be found in the [configs](https://github.com/aiswarm/configs) repository.
 
-```bash
+## Recommended Setup for development with other plugins
+
+You will need to link the plugin to the other plugins you want to use. So that you can make changes and see them immediately without having to publish the plugin to npm.
+
+For this I recommend you create a new folder for the AI Swarm and clone all the plugins you want to use into it. Then link them together.
+
+Each plugin has `link` script defined in the `package.json` file if there are dependencies on other packages.
+You can run it with `npm run link` to link your code directly when you make changes.

@@ -14,9 +14,9 @@
   "author": "Ravi Gairola <mallox@pyxzl.net",
   "license": "MIT",
   "dependencies": {
-    "@aiswarm/ui-cli": "^1.0.0",
-    "@aiswarm/api-graphql": "^1.0.0",
-    "@aiswarm/ui-web": "^1.0.0",
-    "@aiswarm/driver-openai": "^1.0.0"
+    "@aiswarm/ui-cli": "^0.1.0",
+    "@aiswarm/api-graphql": "^0.1.0",
+    "@aiswarm/ui-web": "^0.1.0",
+    "@aiswarm/driver-openai": "^0.1.0"
   }
 }
