@@ -1,3 +1,8 @@
+[![npm version](https://badge.fury.io/js/%40aiswarm%2Fconductor.svg)](https://badge.fury.io/js/%40aiswarm%2Fconductor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/npm/dm/%40aiswarm%2Fconductor.svg)](https://npmjs.com/package/%40aiswarm%2Fconductor)
+[![Issues](https://img.shields.io/github/issues-raw/aiswarm/conductor)](https://github.com/aiswarm/conductor/issues)
+[![Known Vulnerabilities](https://snyk.io/test/github/aiswarm/conductor/badge.svg)](https://snyk.io/test/github/aiswarm/conductor)
 # AI Swarm - Conductor
 
 This is the main application that runs the AI Swarm. It is responsible for managing the agents, skills, and orchestrating the communication between them.
