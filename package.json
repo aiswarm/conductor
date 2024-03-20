@@ -1,6 +1,6 @@
 {
   "name": "@aiswarm/conductor",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Main application to run the AI Swarm. Uses bundles the web-ui, cli, and core drivers in a simple to use package.",
   "keywords": [
     "ai",
