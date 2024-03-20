@@ -22,7 +22,7 @@
     "start": "node -e 'import(process.cwd() + \"/node_modules/@aiswarm/ui-cli/index.js\")'",
     "link": "npm link ../ui-web ../api-graphql ../ui-cli ../driver-openai"
   },
-  "author": "Ravi Gairola <mallox@pyxzl.net",
+  "author": "Ravi Gairola <mallox@pyxzl.net>",
   "license": "MIT",
   "dependencies": {
     "@aiswarm/ui-cli": "^0.1.0",
