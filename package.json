@@ -16,7 +16,7 @@
   "main": "@aiswatm/ui-cli",
   "type": "module",
   "bin": {
-    "conductor": "npx @aiswatm/ui-cli"
+    "conductor": "npx @aiswarm/ui-cli"
   },
   "scripts": {
     "start": "node -e 'import(process.cwd() + \"/node_modules/@aiswarm/ui-cli/index.js\")'",
