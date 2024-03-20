@@ -32,7 +32,7 @@ Or you can install it in a folder and run it from there:
 npx @aiswarm/conductor run --help // this will install it automatically and run it
 ```
 
-To run the conductor, you need to provide a config file. You can use the example config file as a starting point. More configs can be found in the [configs](https://github.com/aiswarm/configs) repository.
+To run the conductor, you need to provide a config file. For more information on how to create your config, plus some sample configurations take a look at the  [configs](https://github.com/aiswarm/configs) repository.
 
 ## Recommended Setup for development with other plugins
 
