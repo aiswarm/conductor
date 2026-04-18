@@ -20,7 +20,22 @@
   },
   "scripts": {
     "start": "node -e 'import(process.cwd() + \"/node_modules/@aiswarm/ui-cli/index.js\")'",
+    "test": "echo '(no tests)'",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky",
     "link": "npm link ../ui-web ../api-graphql ../ui-cli ../driver-openai"
+  },
+  "lint-staged": {
+    "*.{js,mjs}": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
   },
   "author": "Ravi Gairola <mallox@pyxzl.net>",
   "license": "MIT",
@@ -29,5 +44,15 @@
     "@aiswarm/api-graphql": "^0.1.0",
     "@aiswarm/ui-web": "^0.1.0",
     "@aiswarm/driver-openai": "^0.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.0.0",
+    "husky": "^9.1.0",
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.6.0"
   }
 }

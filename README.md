@@ -3,6 +3,7 @@
 [![Downloads](https://img.shields.io/npm/dm/%40aiswarm%2Fconductor.svg)](https://npmjs.com/package/%40aiswarm%2Fconductor)
 [![Issues](https://img.shields.io/github/issues-raw/aiswarm/conductor)](https://github.com/aiswarm/conductor/issues)
 [![Known Vulnerabilities](https://snyk.io/test/github/aiswarm/conductor/badge.svg)](https://snyk.io/test/github/aiswarm/conductor)
+
 # AI Swarm - Conductor
 
 This is the main application that runs the AI Swarm. It is responsible for managing the agents, skills, and orchestrating the communication between them.
@@ -13,9 +14,9 @@ This is the easiest way to get your own agent swarm up and running.
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/en/) - JavaScript runtime
-* Git - Version control system
-* Access to a supported LLM. Right now only [OpenAI](https://openai.com/) is supported, but plans to include AWS Bedrock and other services are underway.
+- [Node.js](https://nodejs.org/en/) - JavaScript runtime
+- Git - Version control system
+- Access to a supported LLM. Right now only [OpenAI](https://openai.com/) is supported, but plans to include AWS Bedrock and other services are underway.
 
 ### Installing & Running
 
@@ -32,7 +33,7 @@ Or you can install it in a folder and run it from there:
 npx @aiswarm/conductor run --help // this will install it automatically and run it
 ```
 
-To run the conductor, you need to provide a config file. For more information on how to create your config, plus some sample configurations take a look at the  [configs](https://github.com/aiswarm/configs) repository.
+To run the conductor, you need to provide a config file. For more information on how to create your config, plus some sample configurations take a look at the [configs](https://github.com/aiswarm/configs) repository.
 
 ## Recommended Setup for development with other plugins
 
