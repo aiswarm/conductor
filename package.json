@@ -40,14 +40,14 @@
   "author": "Ravi Gairola <mallox@pyxzl.net>",
   "license": "MIT",
   "dependencies": {
-    "@aiswarm/ui-cli": "^0.1.0",
-    "@aiswarm/api-graphql": "^0.1.0",
-    "@aiswarm/ui-web": "^0.1.0",
-    "@aiswarm/driver-openai": "^0.1.0"
+    "@aiswarm/ui-cli": "^0.1.9",
+    "@aiswarm/api-graphql": "^0.1.9",
+    "@aiswarm/ui-web": "^0.1.9",
+    "@aiswarm/driver-openai": "^0.1.9"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.0",
-    "eslint": "^9.39.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.0",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.0.0",
