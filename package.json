@@ -1,6 +1,6 @@
 {
   "name": "@aiswarm/conductor",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Main application to run the AI Swarm. Uses bundles the web-ui, cli, and core drivers in a simple to use package.",
   "keywords": [
     "ai",
@@ -40,15 +40,16 @@
   "author": "Ravi Gairola <mallox@pyxzl.net>",
   "license": "MIT",
   "dependencies": {
-    "@aiswarm/ui-cli": "^0.1.9",
-    "@aiswarm/api-graphql": "^0.1.9",
-    "@aiswarm/ui-web": "^0.1.9",
-    "@aiswarm/driver-openai": "^0.1.9"
+    "@aiswarm/ui-cli": "^0.2.0",
+    "@aiswarm/api-graphql": "^0.2.0",
+    "@aiswarm/ui-web": "^0.2.0",
+    "@aiswarm/driver-openai": "^0.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.0.0",
     "husky": "^9.1.0",

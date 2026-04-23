@@ -21,9 +21,7 @@ export default [
     },
     settings: {
       'import/resolver': {
-        node: {
-          extensions: ['.js', '.mjs']
-        }
+        typescript: { project: './jsconfig.json' }
       }
     },
     rules: {
